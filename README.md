@@ -1,25 +1,39 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# An inventory management app for a food pantry supporting CRUD operations with AI integration for recipe recommendations.
 
-## Getting Started
+I'd love feedback and suggestions ;)
 
-First, run the development server:
+## Technologies
+
+Next.js, Firebase, OpenAI, Tailwind
+
+## To run locally
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
+If you would like to tweak the prompts for experimentation purposes, edit `actions.js`
+
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+## Your .env file should look like this
+
+```
+OPENAI_API_KEY = YOUR_OPENAI_API_KEY //create an account for OpenAI, create a project, generate an API
+NEXT_PUBLIC_FIREBASE_API_KEY = YOUR_NEXT_PUBLIC_FIREBASE_API_KEY //these 6 values are retrieved when setting up Firebase DB
+NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN = YOUR_NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN
+NEXT_PUBLIC_FIREBASE_PROJECT_ID = YOUR_NEXT_PUBLIC_FIREBASE_PROJECT_ID
+NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET = YOUR_NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET
+NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID = YOUR_NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID
+NEXT_PUBLIC_FIREBASE_APP_ID = YOUR_NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID
+```
+P.S.: This project's current live deployed version uses my OpenAI credits. You would need to pay for your own app's credits.
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:

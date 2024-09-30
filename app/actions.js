@@ -4,7 +4,7 @@ import { ChatOpenAI } from "@langchain/openai"
 
 //to interact with openAI using langchain
 const chatModel = new ChatOpenAI({
-    apiKey: process.env.OPENAI_API_KEY
+    apiKey: process.env.NEXT_PUBLIC_OPENAI_API_KEY
 })
 
 export async function generateRecipes(recipe){

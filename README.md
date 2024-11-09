@@ -48,3 +48,15 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Useful VSCode Plugins
+- PostCSS Language Support
+- Auto Close Tag
+- Auto Rename Tag
+- Babel JavaScript
+- Bracket Pair Colorization Toggler
+- Color Highlight
+- DotENV
+- ES7+ React/Redux/React-Native snippets
+- JavaScript (ES6) code snippets
+- Prettier - Code formatter

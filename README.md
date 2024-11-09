@@ -4,7 +4,7 @@ I'd love feedback and suggestions ;)
 
 ## Technologies
 
-Next.js, Firebase, OpenAI, Tailwind
+Next.js, Firebase, OpenAI, Tailwind, MUI
 
 ## To run locally
 
